@@ -71,47 +71,6 @@ TaskFlow allows users to create, manage, organize, search, filter, sort, edit, c
 * SQLite
 
 
- Project Structure
-
-
-Task 2-ToDoList/
-│
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-├── .gitignore
-└── README.md
-
- backend/
-    │
-    ├── manage.py
-    ├── requirements.txt
-    │
-    ├── tasks/
-    │   ├── models.py
-    │   ├── serializers.py
-    │   ├── views.py
-    │   ├── urls.py
-    │   ├── admin.py
-    │   └── migrations/
-    │
-    ├── config/
-    │   ├── settings.py
-    │   ├── urls.py
-    │   ├── asgi.py
-    │   └── wsgi.py
-    │
-    └── .venv/
-
-
-
-
- '.venv/', 'db.sqlite3', cache files, and other local development files are excluded from GitHub using '.gitignore'.
-
 
 
   Installation & Setup
